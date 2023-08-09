@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: #fff; /* Color de fondo blanco por defecto */
+    position: relative; /* Importante para posicionar correctamente el overlay */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    opacity: 50%;
+    z-index: -1; /* Coloca la imagen detrás de otros contenidos */
+}
+
+
+
+
+
+
+.header p{
+    
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.header{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 2, 62);
+    height: 6rem;
+    margin-bottom: 1rem;
+}
+.boton{
+    display: block;
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(149, 0, 255);
+    color: white;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    border: 0.25rem solid black;
+    border-radius: 1.5rem;
+}
+
+
+.contenedor-botones{
+    margin: 10rem 15rem;
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.ac{
+    background-color: gray;
+}
+.ag{
+    background-color: rgb(4, 190, 190);
+}
+.bi{
+    background-color: rgb(143, 210, 42);
+}
+.dr{
+    background-color: blueviolet;
+}
+.el{
+    background-color: rgb(204, 204, 6);
+}
+.fa{
+    background-color: darkblue;
+}
+.fu{
+    background-color: red;
+}
+.ha{
+   background-color: rgb(249, 174, 187); 
+}
+.hi{
+    background-color: rgb(33, 227, 231);
+}
+.lu{
+    background-color: brown;
+}
+.no{
+    background-color: rgb(190, 201, 201);
+}
+.pl{
+    background-color: green;
+}
+.ps{
+    background-color: rgb(164, 38, 164);
+}
+.ro{
+    background-color: chocolate;
+}
+.si{
+    background-color: rgb(40, 24, 1);
+}
+.ti{
+    background-color: rgb(177, 162, 28);
+}
+.ve{
+    background-color: purple;
+}
+.vo{
+    background-color: rgb(0, 132, 214);
+}
